@@ -1,0 +1,10 @@
+headless: True
+max_attempts: 3
+autorun:
+  status: True
+  schedule: "00:01"
+
+email: "mail@gmail.com"
+password: "password"
+real_name: "John"
+dummy_name: "Noname"
