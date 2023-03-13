@@ -1,12 +1,10 @@
-
-# Dice-updater
-Dice Resume Updater 🎲🎲🎲
-
-I like Python and don't like updating my resume on Dice, so I created a project that does it for me.
-
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![Build Passing](https://img.shields.io/badge/Build-passing-green.svg)
 ![Maintainer Art Krylov](https://img.shields.io/static/v1?label=Maintainer&message=ArtKrylovv&color=blue)
+
+# Dice-resume-updater 🎲🎲🎲
+
+I like Python and don't like updating my resume on Dice, so I created a project that does it for me.
 
 ## How it works
 
