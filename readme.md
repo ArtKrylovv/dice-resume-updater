@@ -51,7 +51,7 @@ dummy_name: "Noname"
 | real_name         | string  | first name on your Dice profile                |
 | dummy_name        | string  | temporary name that will be used for update    |
 
-* to enable autorun status must be set to True, script will run daily at scheduled time
+\* to enable autorun status must be set to True, script will run daily at scheduled time
 
 Success/Failure screenshots are available at:
 
