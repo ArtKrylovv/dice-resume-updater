@@ -8,7 +8,7 @@ I like Python and don't like updating my resume on Dice, so I created a project 
 
 ## How it works
 
-Project relies on Selenium WebDriver package to interact with web app, Webdriver-manager to install browser driver on you machine and Schedule to execute jobs at specif time. Profile update is done by changing first name to dummy name and then back to real name.
+Project relies on following packages: Selenium WebDriver to interact with web app, Webdriver-manager to install browser driver on you machine and Schedule to execute jobs at specif time. Profile update is done by first updating first name to dummy name and then changing back to real name.
 
 ![Demo](https://media.giphy.com/media/Ai6cYaZ0RruKJyxYsj/giphy.gif)
 ## Installation
@@ -18,7 +18,7 @@ Prerequisites: Python 3.10, Google Chrome (latest version)
 Install dice-updater on Linux and macOS
 
 ```zsh
-  git clone ''
+  git clone 'https://github.com/ArtKrylovv/dice-resume-updater.git'
   cd dice-updater
   pip3 install -r requirements.txt
   
@@ -67,6 +67,31 @@ To deploy this project run:
 ```zsh
   cd dice-updater
   python3 main.py
+```
+
+## Future bugs
+
+As changes introduced to Dice app this may affect project functionality.
+If needed updates can be made in page modules:
+
+```zsh
+./pm
+```
+
+```python
+
+class HomePage(Common):
+    """
+    Contains Home page elements and action methods.
+    """
+    link_profile = (By.CSS_SELECTOR, '#profileLink')
+
+    def __init__(self, driver):
+        self.driver = driver
+
+    def click_link_profile(self):
+        Common.click_element(Common.find_element(self.driver, self.link_profile))
+
 ```
 
 ## Authors
