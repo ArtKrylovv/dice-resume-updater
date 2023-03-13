@@ -75,7 +75,7 @@ As changes introduced to Dice app this may affect project functionality.
 If needed updates can be made in page modules:
 
 ```zsh
-./pm
+./pom
 ```
 
 ```python
