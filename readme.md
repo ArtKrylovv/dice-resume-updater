@@ -15,7 +15,7 @@ Project relies on following packages: Selenium WebDriver to interact with web ap
 
 Prerequisites: Python 3.10, Google Chrome (latest version)
 
-Install dice-updater on Linux and macOS
+Install dice-resume-updater on Linux and macOS
 
 ```zsh
   git clone 'https://github.com/ArtKrylovv/dice-resume-updater.git'
